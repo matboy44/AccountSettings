@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ChangeEmail"
+        android:layout_width="400dp"
+        android:layout_height="54dp"
+        android:background="#fff"
+        android:padding="15dp"
+        android:text="Change Email"
+        android:textAllCaps="false"
+
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        style="@style/Divider"
+
+        android:layout_height="0.20mm"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="56dp"();/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="47dp"
+        android:background="#ffffff"
+        android:text="Change Password"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <View
+        style="@style/Divider"
+
+        android:layout_height="0.30mm"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="103dp"
+
+
+    />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@mipmap/Maps"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="439dp"
+
+        android:background="#000000"
+        android:padding="0.20mm"/>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:padding="0.20mm"
+        app:srcCompat="@mipmap/Accommodation"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:padding="0.20mm"
+        app:srcCompat="@mipmap/Chats"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:padding="0.20mm"
+        app:srcCompat="@mipmap/Education"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+</android.support.constraint.ConstraintLayout>
